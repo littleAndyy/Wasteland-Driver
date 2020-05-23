@@ -1,19 +1,19 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0E966A87
-/// @DnDArgument : "code" "//Decelleration$(13_10)$(13_10)if !(keyboard_check(ord("W") || ("S")))$(13_10){$(13_10)if (speed != 0)$(13_10){$(13_10)	friction= 0.07;$(13_10)}$(13_10)else$(13_10){$(13_10)	friction = 0;$(13_10)}$(13_10)}"
+/// @DnDArgument : "code" "//Decelleration$(13_10)$(13_10)if !(keyboard_check(ord("W") || ("S")))$(13_10){$(13_10)	if (speed != 0)$(13_10)	{$(13_10)		friction= 0.07;$(13_10)	}$(13_10)else$(13_10)	{$(13_10)		friction = 0;$(13_10)	}$(13_10)}"
 //Decelleration
 
 if !(keyboard_check(ord("W") || ("S")))
 {
-if (speed != 0)
-{
-	friction= 0.07;
-}
+	if (speed != 0)
+	{
+		friction= 0.07;
+	}
 else
-{
-	friction = 0;
-}
+	{
+		friction = 0;
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Expression

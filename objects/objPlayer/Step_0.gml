@@ -149,8 +149,8 @@ if(weaponSelected = 3)
 			/// @DnDVersion : 1
 			/// @DnDHash : 04188471
 			/// @DnDParent : 1B08F8CA
-			/// @DnDArgument : "speed" "2"
-			image_speed = 2;
+			/// @DnDArgument : "speed" "4"
+			image_speed = 4;
 		
 			/// @DnDAction : YoYo Games.Instances.Set_Sprite
 			/// @DnDVersion : 1
@@ -166,17 +166,17 @@ if(weaponSelected = 3)
 			/// @DnDVersion : 1
 			/// @DnDHash : 62EABD11
 			/// @DnDParent : 1B08F8CA
-			/// @DnDArgument : "steps" "room_speed * 0.25"
+			/// @DnDArgument : "steps" "room_speed * 0.125"
 			/// @DnDArgument : "alarm" "2"
-			alarm_set(2, room_speed * 0.25);
+			alarm_set(2, room_speed * 0.125);
 		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1
 			/// @DnDHash : 0C343C72
 			/// @DnDParent : 1B08F8CA
-			/// @DnDArgument : "steps" "room_speed * 0.5"
+			/// @DnDArgument : "steps" "room_speed * 0.25"
 			/// @DnDArgument : "alarm" "1"
-			alarm_set(1, room_speed * 0.5);
+			alarm_set(1, room_speed * 0.25);
 		}
 	}
 }
