@@ -1,5 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 60EC1261
+/// @DnDArgument : "expr" "60"
+/// @DnDArgument : "var" "room_speed"
+room_speed = 60;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 6FAB7D71
 /// @DnDArgument : "expr" "objPlayer"
 /// @DnDArgument : "var" "playerObject"

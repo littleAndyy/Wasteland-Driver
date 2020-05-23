@@ -23,3 +23,9 @@ image_yscale = 3/4;
 /// @DnDHash : 38C8BF84
 /// @DnDArgument : "var" "weaponSelected"
 weaponSelected = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6B8DA01C
+/// @DnDArgument : "var" "attacking"
+attacking = 0;
