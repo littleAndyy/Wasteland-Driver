@@ -2,13 +2,13 @@
     "id": "c94ac8af-e5ac-46d7-81e3-39766043fcaf",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sCar",
+    "name": "sCar1",
     "For3D": false,
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 23,
-    "bbox_left": 0,
-    "bbox_right": 17,
+    "bbox_left": 2,
+    "bbox_right": 15,
     "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
@@ -16,24 +16,24 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "dc9e4af1-9d05-4e41-81fc-ed55d65ee86d",
+            "id": "e55dac5d-cc3a-4618-b215-995754fe946c",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "c94ac8af-e5ac-46d7-81e3-39766043fcaf",
             "compositeImage": {
-                "id": "4391d35b-cb68-4a41-89db-f20c86d5b4c6",
+                "id": "4db95f7e-5fd5-42f4-84c4-ca39dc3e7fbf",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "dc9e4af1-9d05-4e41-81fc-ed55d65ee86d",
+                "FrameId": "e55dac5d-cc3a-4618-b215-995754fe946c",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "69e45441-2433-4a7b-97ca-99318802bb5b",
+                    "id": "0031ef27-182b-4442-9dce-f7fddb737564",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "dc9e4af1-9d05-4e41-81fc-ed55d65ee86d",
-                    "LayerId": "7f9cdd1f-a690-4864-b97a-cdd113d35d00"
+                    "FrameId": "e55dac5d-cc3a-4618-b215-995754fe946c",
+                    "LayerId": "a2829633-dfde-4bfc-8f29-0876a1ed5cc9"
                 }
             ]
         }
@@ -43,7 +43,7 @@
     "height": 24,
     "layers": [
         {
-            "id": "7f9cdd1f-a690-4864-b97a-cdd113d35d00",
+            "id": "a2829633-dfde-4bfc-8f29-0876a1ed5cc9",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "c94ac8af-e5ac-46d7-81e3-39766043fcaf",

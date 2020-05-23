@@ -6,7 +6,7 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 0,
+    "bbox_bottom": 4,
     "bbox_left": 0,
     "bbox_right": 0,
     "bbox_top": 0,
@@ -16,34 +16,34 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "6fa5fc30-b73c-459d-995a-207fc6741759",
+            "id": "62c1e380-b5a8-46f5-a8ad-be0da050ae1e",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "868163d3-73e7-44ae-9387-3ceec6e267a9",
             "compositeImage": {
-                "id": "322eac27-d25f-44df-9750-da840ceb00b3",
+                "id": "7430f2e3-f04a-4c2e-81ca-d4e763703bbb",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "6fa5fc30-b73c-459d-995a-207fc6741759",
+                "FrameId": "62c1e380-b5a8-46f5-a8ad-be0da050ae1e",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "f033059d-8eb5-4439-87d6-c665a09e2316",
+                    "id": "ee465764-942c-4916-9785-69cea9f187d0",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "6fa5fc30-b73c-459d-995a-207fc6741759",
-                    "LayerId": "80967442-e94a-46b5-a4ea-9f015f17a679"
+                    "FrameId": "62c1e380-b5a8-46f5-a8ad-be0da050ae1e",
+                    "LayerId": "9014582f-d732-406a-85e4-d86742b3f0d9"
                 }
             ]
         }
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 1,
+    "height": 5,
     "layers": [
         {
-            "id": "80967442-e94a-46b5-a4ea-9f015f17a679",
+            "id": "9014582f-d732-406a-85e4-d86742b3f0d9",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "868163d3-73e7-44ae-9387-3ceec6e267a9",
@@ -54,7 +54,7 @@
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 6,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -66,5 +66,5 @@
     "type": 0,
     "width": 1,
     "xorig": 0,
-    "yorig": 0
+    "yorig": 4
 }
