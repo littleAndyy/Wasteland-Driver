@@ -11,10 +11,34 @@ image_speed = 1 * speed;
 /// @DnDArgument : "not" "1"
 if(!(zombieHP > 0))
 {
-	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 4C80B149
+	/// @DnDHash : 15490BCF
 	/// @DnDParent : 0A82BDE9
-	/// @DnDArgument : "code" "instance_destroy();"
 	instance_destroy();
 }
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 340E20DC
+/// @DnDArgument : "code" "if ((distance_to_object(objPlayer) < 50))$(13_10){$(13_10)if instance_exists(objPlayer)$(13_10){$(13_10)	move_towards_point(objPlayer.x,objPlayer.y, zSpeed)$(13_10)}$(13_10)else if instance_exists(objPetalBike)$(13_10){$(13_10)	move_towards_point(objPetalBike.x,objPetalBike.y, zSpeed)$(13_10)}$(13_10)else if instance_exists(objMotorcycle)$(13_10){$(13_10)	move_towards_point(objMotorcycle.x,objMotorcycle.y, zSpeed)$(13_10)}$(13_10)else if instance_exists(objCar)$(13_10){$(13_10)	move_towards_point(objCar.x,objCar.y, zSpeed)$(13_10)}$(13_10)}$(13_10)image_angle = direction-90;"
+if ((distance_to_object(objPlayer) < 50))
+{
+if instance_exists(objPlayer)
+{
+	move_towards_point(objPlayer.x,objPlayer.y, zSpeed)
+}
+else if instance_exists(objPetalBike)
+{
+	move_towards_point(objPetalBike.x,objPetalBike.y, zSpeed)
+}
+else if instance_exists(objMotorcycle)
+{
+	move_towards_point(objMotorcycle.x,objMotorcycle.y, zSpeed)
+}
+else if instance_exists(objCar)
+{
+	move_towards_point(objCar.x,objCar.y, zSpeed)
+}
+}
+image_angle = direction-90;
