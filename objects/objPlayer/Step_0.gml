@@ -440,7 +440,9 @@ if(y >= room_height -200)
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 34D5B422
-/// @DnDArgument : "code" "if (reloading = 0)$(13_10){$(13_10)if (objPlayerStatus.pMagCurrent = 0 || keyboard_check_pressed(ord("R")))$(13_10){$(13_10)if (objPlayerStatus.pAmmo > 0 && objPlayerStatus.pMagCurrent < objPlayerStatus.pMagMax)$(13_10){$(13_10)	reloading = 1;$(13_10)	audio_play_sound(pistolReload,1,false);$(13_10)	var ammo = objPlayerStatus.pMagMax-objPlayerStatus.pMagCurrent;$(13_10)	if (objPlayerStatus.pAmmo >= objPlayerStatus.pMagMax)$(13_10)	{$(13_10)		objPlayerStatus.pMagCurrent = objPlayerStatus.pMagMax;$(13_10)		objPlayerStatus.pAmmo -= ammo;$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)		objPlayerStatus.pMagCurrent+= objPlayerStatus.pAmmo;$(13_10)		objPlayerStatus.pAmmo -= ammo;$(13_10)		if (objPlayerStatus.pMagCurrent > objPlayerStatus.pMagMax)$(13_10)		{$(13_10)			objPlayerStatus.pMagCurrent = objPlayerStatus.pMagMax;$(13_10)		}$(13_10)	}$(13_10)	if (objPlayerStatus.pAmmo < 0)$(13_10)	{$(13_10)		objPlayerStatus.pAmmo = 0;$(13_10)	}$(13_10)}$(13_10)}$(13_10)alarm_set(4,room_speed * 1.8)$(13_10)}"
+/// @DnDArgument : "code" "if (weaponSelected = 3)$(13_10){$(13_10)if (reloading = 0)$(13_10){$(13_10)if (objPlayerStatus.pMagCurrent = 0 || keyboard_check_pressed(ord("R")))$(13_10){$(13_10)if (objPlayerStatus.pAmmo > 0 && objPlayerStatus.pMagCurrent < objPlayerStatus.pMagMax)$(13_10){$(13_10)	reloading = 1;$(13_10)	audio_play_sound(pistolReload,1,false);$(13_10)	var ammo = objPlayerStatus.pMagMax-objPlayerStatus.pMagCurrent;$(13_10)	if (objPlayerStatus.pAmmo >= objPlayerStatus.pMagMax)$(13_10)	{$(13_10)		objPlayerStatus.pMagCurrent = objPlayerStatus.pMagMax;$(13_10)		objPlayerStatus.pAmmo -= ammo;$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)		objPlayerStatus.pMagCurrent+= objPlayerStatus.pAmmo;$(13_10)		objPlayerStatus.pAmmo -= ammo;$(13_10)		if (objPlayerStatus.pMagCurrent > objPlayerStatus.pMagMax)$(13_10)		{$(13_10)			objPlayerStatus.pMagCurrent = objPlayerStatus.pMagMax;$(13_10)		}$(13_10)	}$(13_10)	if (objPlayerStatus.pAmmo < 0)$(13_10)	{$(13_10)		objPlayerStatus.pAmmo = 0;$(13_10)	}$(13_10)}$(13_10)}$(13_10)alarm_set(4,room_speed * 1.8)$(13_10)}$(13_10)}"
+if (weaponSelected = 3)
+{
 if (reloading = 0)
 {
 if (objPlayerStatus.pMagCurrent = 0 || keyboard_check_pressed(ord("R")))
@@ -471,4 +473,5 @@ if (objPlayerStatus.pAmmo > 0 && objPlayerStatus.pMagCurrent < objPlayerStatus.p
 }
 }
 alarm_set(4,room_speed * 1.8)
+}
 }

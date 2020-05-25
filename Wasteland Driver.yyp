@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "72ae43bf-033d-49cd-a25e-38169a9b0a71",
+            "Value": {
+                "id": "a32f4b4c-6e17-45dc-81ce-8dc017e0f880",
+                "resourcePath": "sprites\\sMelee\\sMelee.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "731ec8ab-5405-4791-882b-f5a5e0a9072c",
             "Value": {
                 "id": "1f01e408-b768-4c3d-a0ad-f5762772e9b6",
