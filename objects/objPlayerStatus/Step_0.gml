@@ -117,14 +117,46 @@ if(pFuel < 0)
 /// @DnDArgument : "expr" "objCamera.playerObject = objMotorcycle"
 if(objCamera.playerObject = objMotorcycle)
 {
-	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
-	/// @DnDHash : 69CAE438
+	/// @DnDHash : 332BE2D2
 	/// @DnDParent : 1DFC86AC
-	/// @DnDArgument : "expr" "-0.05 * objMotorcycle.speed"
-	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "pFuel"
-	pFuel += -0.05 * objMotorcycle.speed;
+	/// @DnDArgument : "expr" "objMotorcycle.speed > 0"
+	if(objMotorcycle.speed > 0)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 69CAE438
+		/// @DnDParent : 332BE2D2
+		/// @DnDArgument : "expr" "-0.05 * objMotorcycle.speed"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "pFuel"
+		pFuel += -0.05 * objMotorcycle.speed;
+	}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 395B930F
+	/// @DnDParent : 1DFC86AC
+	else
+	{
+		/// @DnDAction : YoYo Games.Common.If_Expression
+		/// @DnDVersion : 1
+		/// @DnDHash : 0729D388
+		/// @DnDParent : 395B930F
+		/// @DnDArgument : "expr" "objMotorcycle.speed < 0"
+		if(objMotorcycle.speed < 0)
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 54B551EA
+			/// @DnDParent : 0729D388
+			/// @DnDArgument : "expr" "-0.05 * -objMotorcycle.speed"
+			/// @DnDArgument : "expr_relative" "1"
+			/// @DnDArgument : "var" "pFuel"
+			pFuel += -0.05 * -objMotorcycle.speed;
+		}
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Expression
@@ -133,14 +165,46 @@ if(objCamera.playerObject = objMotorcycle)
 /// @DnDArgument : "expr" "objCamera.playerObject = objCar"
 if(objCamera.playerObject = objCar)
 {
-	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDAction : YoYo Games.Common.If_Expression
 	/// @DnDVersion : 1
-	/// @DnDHash : 47DEE976
+	/// @DnDHash : 04804ABD
 	/// @DnDParent : 76D8195B
-	/// @DnDArgument : "expr" "-0.05 * objCar.speed"
-	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "pFuel"
-	pFuel += -0.05 * objCar.speed;
+	/// @DnDArgument : "expr" "objCar.speed > 0"
+	if(objCar.speed > 0)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 47DEE976
+		/// @DnDParent : 04804ABD
+		/// @DnDArgument : "expr" "-0.05 * objCar.speed"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "pFuel"
+		pFuel += -0.05 * objCar.speed;
+	}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 29189790
+	/// @DnDParent : 76D8195B
+	else
+	{
+		/// @DnDAction : YoYo Games.Common.If_Expression
+		/// @DnDVersion : 1
+		/// @DnDHash : 2352EECA
+		/// @DnDParent : 29189790
+		/// @DnDArgument : "expr" "objCar.speed < 0"
+		if(objCar.speed < 0)
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 6788AD40
+			/// @DnDParent : 2352EECA
+			/// @DnDArgument : "expr" "-0.05 * -objCar.speed"
+			/// @DnDArgument : "expr_relative" "1"
+			/// @DnDArgument : "var" "pFuel"
+			pFuel += -0.05 * -objCar.speed;
+		}
+	}
 }
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm

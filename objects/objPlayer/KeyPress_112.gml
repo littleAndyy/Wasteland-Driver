@@ -1,5 +1,13 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 2A8EB416
-/// @DnDArgument : "code" "window_set_fullscreen(true);"
-window_set_fullscreen(true);
+/// @DnDArgument : "code" "if (on = 0)$(13_10){$(13_10)	on = 1;$(13_10)	window_set_fullscreen(true);$(13_10)}$(13_10)else if (on = 1)$(13_10){$(13_10)	window_set_fullscreen(false);$(13_10)}"
+if (on = 0)
+{
+	on = 1;
+	window_set_fullscreen(true);
+}
+else if (on = 1)
+{
+	window_set_fullscreen(false);
+}

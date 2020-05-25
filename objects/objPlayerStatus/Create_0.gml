@@ -102,3 +102,22 @@ pWtBar_x = (1920/2-150) - (pHpWidth/2);
 /// @DnDArgument : "expr" "(1920/2-300) - (pHpWidth/2)"
 /// @DnDArgument : "var" "pFuelBar_x"
 pFuelBar_x = (1920/2-300) - (pHpWidth/2);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1FCBA1BE
+/// @DnDArgument : "var" "pAmmo"
+pAmmo = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 29BD4672
+/// @DnDArgument : "expr" "8"
+/// @DnDArgument : "var" "pMagMax"
+pMagMax = 8;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 79141FAA
+/// @DnDArgument : "var" "pMagCurrent"
+pMagCurrent = 0;

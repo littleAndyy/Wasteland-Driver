@@ -29,3 +29,15 @@ weaponSelected = 0;
 /// @DnDHash : 6B8DA01C
 /// @DnDArgument : "var" "attacking"
 attacking = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 54C9E588
+/// @DnDArgument : "var" "on"
+on = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 15F5F4C1
+/// @DnDArgument : "var" "reloading"
+reloading = 0;

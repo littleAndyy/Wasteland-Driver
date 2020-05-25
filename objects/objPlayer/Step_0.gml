@@ -118,13 +118,11 @@ if(weaponSelected = 1)
 			/// @DnDVersion : 1
 			/// @DnDHash : 709745BF
 			/// @DnDParent : 4660BB39
-			/// @DnDArgument : "xpos" "-8"
 			/// @DnDArgument : "xpos_relative" "1"
-			/// @DnDArgument : "ypos" "-8"
 			/// @DnDArgument : "ypos_relative" "1"
 			/// @DnDArgument : "objectid" "objKnife"
 			/// @DnDSaveInfo : "objectid" "5bc707e0-46b5-4a96-9149-4cb549806006"
-			instance_create_layer(x + -8, y + -8, "Instances", objKnife);
+			instance_create_layer(x + 0, y + 0, "Instances", objKnife);
 		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1
@@ -297,51 +295,84 @@ if(weaponSelected = 3)
 	{
 		/// @DnDAction : YoYo Games.Common.If_Expression
 		/// @DnDVersion : 1
-		/// @DnDHash : 1B08F8CA
+		/// @DnDHash : 687E359F
 		/// @DnDParent : 3CABDD53
-		/// @DnDArgument : "expr" "attacking = 0"
-		if(attacking = 0)
+		/// @DnDArgument : "expr" "objPlayerStatus.pMagCurrent > 0"
+		if(objPlayerStatus.pMagCurrent > 0)
 		{
-			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDAction : YoYo Games.Common.If_Expression
 			/// @DnDVersion : 1
-			/// @DnDHash : 174EA7A5
-			/// @DnDParent : 1B08F8CA
-			/// @DnDArgument : "expr" "1"
-			/// @DnDArgument : "var" "attacking"
-			attacking = 1;
-		
-			/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
-			/// @DnDVersion : 1
-			/// @DnDHash : 04188471
-			/// @DnDParent : 1B08F8CA
-			/// @DnDArgument : "speed" "4"
-			image_speed = 4;
-		
-			/// @DnDAction : YoYo Games.Instances.Set_Sprite
-			/// @DnDVersion : 1
-			/// @DnDHash : 1CB842EE
-			/// @DnDParent : 1B08F8CA
-			/// @DnDArgument : "imageind_relative" "1"
-			/// @DnDArgument : "spriteind" "sPlayer3Attack"
-			/// @DnDSaveInfo : "spriteind" "9eb9d828-46ff-47a8-ac52-062c60a83c58"
-			sprite_index = sPlayer3Attack;
-			image_index += 0;
-		
-			/// @DnDAction : YoYo Games.Instances.Set_Alarm
-			/// @DnDVersion : 1
-			/// @DnDHash : 62EABD11
-			/// @DnDParent : 1B08F8CA
-			/// @DnDArgument : "steps" "room_speed * 0.125"
-			/// @DnDArgument : "alarm" "2"
-			alarm_set(2, room_speed * 0.125);
-		
-			/// @DnDAction : YoYo Games.Instances.Set_Alarm
-			/// @DnDVersion : 1
-			/// @DnDHash : 0C343C72
-			/// @DnDParent : 1B08F8CA
-			/// @DnDArgument : "steps" "room_speed * 0.25"
-			/// @DnDArgument : "alarm" "1"
-			alarm_set(1, room_speed * 0.25);
+			/// @DnDHash : 1B08F8CA
+			/// @DnDParent : 687E359F
+			/// @DnDArgument : "expr" "attacking = 0"
+			if(attacking = 0)
+			{
+				/// @DnDAction : YoYo Games.Common.If_Expression
+				/// @DnDVersion : 1
+				/// @DnDHash : 62B502AD
+				/// @DnDParent : 1B08F8CA
+				/// @DnDArgument : "expr" "reloading = 0"
+				if(reloading = 0)
+				{
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 174EA7A5
+					/// @DnDParent : 62B502AD
+					/// @DnDArgument : "expr" "1"
+					/// @DnDArgument : "var" "attacking"
+					attacking = 1;
+				
+					/// @DnDAction : YoYo Games.Audio.Play_Audio
+					/// @DnDVersion : 1
+					/// @DnDHash : 016EED8E
+					/// @DnDParent : 62B502AD
+					/// @DnDArgument : "soundid" "pistolShot"
+					/// @DnDSaveInfo : "soundid" "2e952600-76f9-492e-9c9a-2506536121a0"
+					audio_play_sound(pistolShot, 0, 0);
+				
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 6207B2F4
+					/// @DnDParent : 62B502AD
+					/// @DnDArgument : "expr" "-1"
+					/// @DnDArgument : "expr_relative" "1"
+					/// @DnDArgument : "var" "objPlayerStatus.pMagCurrent"
+					objPlayerStatus.pMagCurrent += -1;
+				
+					/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+					/// @DnDVersion : 1
+					/// @DnDHash : 04188471
+					/// @DnDParent : 62B502AD
+					/// @DnDArgument : "speed" "4"
+					image_speed = 4;
+				
+					/// @DnDAction : YoYo Games.Instances.Set_Sprite
+					/// @DnDVersion : 1
+					/// @DnDHash : 1CB842EE
+					/// @DnDParent : 62B502AD
+					/// @DnDArgument : "imageind_relative" "1"
+					/// @DnDArgument : "spriteind" "sPlayer3Attack"
+					/// @DnDSaveInfo : "spriteind" "9eb9d828-46ff-47a8-ac52-062c60a83c58"
+					sprite_index = sPlayer3Attack;
+					image_index += 0;
+				
+					/// @DnDAction : YoYo Games.Instances.Set_Alarm
+					/// @DnDVersion : 1
+					/// @DnDHash : 62EABD11
+					/// @DnDParent : 62B502AD
+					/// @DnDArgument : "steps" "room_speed * 0.125"
+					/// @DnDArgument : "alarm" "2"
+					alarm_set(2, room_speed * 0.125);
+				
+					/// @DnDAction : YoYo Games.Instances.Set_Alarm
+					/// @DnDVersion : 1
+					/// @DnDHash : 0C343C72
+					/// @DnDParent : 62B502AD
+					/// @DnDArgument : "steps" "room_speed * 0.25"
+					/// @DnDArgument : "alarm" "1"
+					alarm_set(1, room_speed * 0.25);
+				}
+			}
 		}
 	}
 }
@@ -404,4 +435,40 @@ if(y >= room_height -200)
 	/// @DnDArgument : "expr" "room_width-200"
 	/// @DnDArgument : "var" "y"
 	y = room_width-200;
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 34D5B422
+/// @DnDArgument : "code" "if (reloading = 0)$(13_10){$(13_10)if (objPlayerStatus.pMagCurrent = 0 || keyboard_check_pressed(ord("R")))$(13_10){$(13_10)if (objPlayerStatus.pAmmo > 0 && objPlayerStatus.pMagCurrent < objPlayerStatus.pMagMax)$(13_10){$(13_10)	reloading = 1;$(13_10)	audio_play_sound(pistolReload,1,false);$(13_10)	var ammo = objPlayerStatus.pMagMax-objPlayerStatus.pMagCurrent;$(13_10)	if (objPlayerStatus.pAmmo >= objPlayerStatus.pMagMax)$(13_10)	{$(13_10)		objPlayerStatus.pMagCurrent = objPlayerStatus.pMagMax;$(13_10)		objPlayerStatus.pAmmo -= ammo;$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)		objPlayerStatus.pMagCurrent+= objPlayerStatus.pAmmo;$(13_10)		objPlayerStatus.pAmmo -= ammo;$(13_10)		if (objPlayerStatus.pMagCurrent > objPlayerStatus.pMagMax)$(13_10)		{$(13_10)			objPlayerStatus.pMagCurrent = objPlayerStatus.pMagMax;$(13_10)		}$(13_10)	}$(13_10)	if (objPlayerStatus.pAmmo < 0)$(13_10)	{$(13_10)		objPlayerStatus.pAmmo = 0;$(13_10)	}$(13_10)}$(13_10)}$(13_10)alarm_set(4,room_speed * 1.8)$(13_10)}"
+if (reloading = 0)
+{
+if (objPlayerStatus.pMagCurrent = 0 || keyboard_check_pressed(ord("R")))
+{
+if (objPlayerStatus.pAmmo > 0 && objPlayerStatus.pMagCurrent < objPlayerStatus.pMagMax)
+{
+	reloading = 1;
+	audio_play_sound(pistolReload,1,false);
+	var ammo = objPlayerStatus.pMagMax-objPlayerStatus.pMagCurrent;
+	if (objPlayerStatus.pAmmo >= objPlayerStatus.pMagMax)
+	{
+		objPlayerStatus.pMagCurrent = objPlayerStatus.pMagMax;
+		objPlayerStatus.pAmmo -= ammo;
+	}
+	else
+	{
+		objPlayerStatus.pMagCurrent+= objPlayerStatus.pAmmo;
+		objPlayerStatus.pAmmo -= ammo;
+		if (objPlayerStatus.pMagCurrent > objPlayerStatus.pMagMax)
+		{
+			objPlayerStatus.pMagCurrent = objPlayerStatus.pMagMax;
+		}
+	}
+	if (objPlayerStatus.pAmmo < 0)
+	{
+		objPlayerStatus.pAmmo = 0;
+	}
+}
+}
+alarm_set(4,room_speed * 1.8)
 }
