@@ -128,10 +128,10 @@ if(objCamera.playerObject = objMotorcycle)
 		/// @DnDVersion : 1
 		/// @DnDHash : 69CAE438
 		/// @DnDParent : 332BE2D2
-		/// @DnDArgument : "expr" "-0.05 * objMotorcycle.speed"
+		/// @DnDArgument : "expr" "-0.01 + (-0.01 * objMotorcycle.speed)"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "pFuel"
-		pFuel += -0.05 * objMotorcycle.speed;
+		pFuel += -0.01 + (-0.01 * objMotorcycle.speed);
 	}
 
 	/// @DnDAction : YoYo Games.Common.Else
@@ -151,10 +151,10 @@ if(objCamera.playerObject = objMotorcycle)
 			/// @DnDVersion : 1
 			/// @DnDHash : 54B551EA
 			/// @DnDParent : 0729D388
-			/// @DnDArgument : "expr" "-0.05 * -objMotorcycle.speed"
+			/// @DnDArgument : "expr" "-0.01 + (-0.01 * objMotorcycle.speed)"
 			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "pFuel"
-			pFuel += -0.05 * -objMotorcycle.speed;
+			pFuel += -0.01 + (-0.01 * objMotorcycle.speed);
 		}
 	}
 }
@@ -176,10 +176,10 @@ if(objCamera.playerObject = objCar)
 		/// @DnDVersion : 1
 		/// @DnDHash : 47DEE976
 		/// @DnDParent : 04804ABD
-		/// @DnDArgument : "expr" "-0.05 * objCar.speed"
+		/// @DnDArgument : "expr" "-0.02 + (-0.01 * objCar.speed)"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "pFuel"
-		pFuel += -0.05 * objCar.speed;
+		pFuel += -0.02 + (-0.01 * objCar.speed);
 	}
 
 	/// @DnDAction : YoYo Games.Common.Else
@@ -199,10 +199,10 @@ if(objCamera.playerObject = objCar)
 			/// @DnDVersion : 1
 			/// @DnDHash : 6788AD40
 			/// @DnDParent : 2352EECA
-			/// @DnDArgument : "expr" "-0.05 * -objCar.speed"
+			/// @DnDArgument : "expr" "-0.02 + (-0.01 * objCar.speed)"
 			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "pFuel"
-			pFuel += -0.05 * -objCar.speed;
+			pFuel += -0.02 + (-0.01 * objCar.speed);
 		}
 	}
 }

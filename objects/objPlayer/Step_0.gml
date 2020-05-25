@@ -475,3 +475,18 @@ if (objPlayerStatus.pAmmo > 0 && objPlayerStatus.pMagCurrent < objPlayerStatus.p
 alarm_set(4,room_speed * 1.8)
 }
 }
+
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
+/// @DnDHash : 667E6B90
+/// @DnDArgument : "expr" "reloading = 1"
+if(reloading = 1)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6DCFD86E
+	/// @DnDParent : 667E6B90
+	/// @DnDArgument : "expr" "3"
+	/// @DnDArgument : "var" "weaponSelected"
+	weaponSelected = 3;
+}
