@@ -35,3 +35,9 @@ attacking = 0;
 /// @DnDHash : 15F5F4C1
 /// @DnDArgument : "var" "reloading"
 reloading = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5D96F64B
+/// @DnDArgument : "var" "depth"
+depth = 0;
