@@ -229,20 +229,23 @@ if(weaponSelected = 2)
 			/// @DnDArgument : "alarm" "1"
 			alarm_set(1, room_speed * 0.5);
 		
-			/// @DnDAction : YoYo Games.Common.Execute_Code
+			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1
-			/// @DnDHash : 5F0DC0C9
+			/// @DnDHash : 41D54084
 			/// @DnDParent : 2A411C6B
-			/// @DnDArgument : "code" "if collision_point(objPlayer.x, objPlayer.y, objZombie, false, true)$(13_10){$(13_10)	with (other) $(13_10){$(13_10)	zombieHP -= 100;$(13_10)}$(13_10)$(13_10)instance_destroy();$(13_10)}"
-			if collision_point(objPlayer.x, objPlayer.y, objZombie, false, true)
-			{
-				with (other) 
-			{
-				zombieHP -= 100;
-			}
-			
-			instance_destroy();
-			}
+			/// @DnDArgument : "steps" "room_speed * 0.07"
+			/// @DnDArgument : "alarm" "3"
+			alarm_set(3, room_speed * 0.07);
+		
+			/// @DnDAction : YoYo Games.Instances.Create_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 2A2D6E37
+			/// @DnDParent : 2A411C6B
+			/// @DnDArgument : "xpos_relative" "1"
+			/// @DnDArgument : "ypos_relative" "1"
+			/// @DnDArgument : "objectid" "objKnife"
+			/// @DnDSaveInfo : "objectid" "5bc707e0-46b5-4a96-9149-4cb549806006"
+			instance_create_layer(x + 0, y + 0, "Instances", objKnife);
 		}
 	}
 }

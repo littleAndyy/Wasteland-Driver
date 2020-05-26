@@ -19,3 +19,9 @@ zombieHP = 100;
 /// @DnDArgument : "expr" "0.8"
 /// @DnDArgument : "var" "zSpeed"
 zSpeed = 0.8;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 758EFB64
+/// @DnDArgument : "var" "rotate"
+rotate = 0;
