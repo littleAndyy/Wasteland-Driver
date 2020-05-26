@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "007a8c59-e782-4232-9747-80b5e54344a8",
+            "Value": {
+                "id": "dbd940d3-9da0-4d54-b1c4-4a935a02acab",
+                "resourcePath": "sprites\\sEMPParts\\sEMPParts.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0540d2a6-b3dd-4c84-8adc-92ed45b0e296",
             "Value": {
                 "id": "a0d6138f-e515-4a42-a133-3b6087ce7c8a",
@@ -111,6 +119,14 @@
             }
         },
         {
+            "Key": "1f5d3b79-ee86-46af-b966-d74efa6c87f6",
+            "Value": {
+                "id": "ffb233aa-3627-4e3a-a0e7-624ef8019b9f",
+                "resourcePath": "sprites\\sHpIco\\sHpIco.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1f99372b-9c34-49a5-87cc-26ee9be35e04",
             "Value": {
                 "id": "74243fb7-dfab-43c8-8c42-6595e07212d5",
@@ -130,7 +146,7 @@
             "Key": "2561415c-abe4-4920-8b7d-b1f53b7193ba",
             "Value": {
                 "id": "a74f97d4-be84-4e78-ac06-f6137d5bb764",
-                "resourcePath": "sounds\\pistolReload\\pistolReload.yy",
+                "resourcePath": "sounds\\sPistolReload\\sPistolReload.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -154,7 +170,7 @@
             "Key": "2e952600-76f9-492e-9c9a-2506536121a0",
             "Value": {
                 "id": "5d431af5-6c5c-46f7-9258-c4a88b3a9062",
-                "resourcePath": "sounds\\pistolShot\\pistolShot.yy",
+                "resourcePath": "sounds\\sPistolShot\\sPistolShot.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -175,10 +191,26 @@
             }
         },
         {
+            "Key": "362d570f-47ea-412c-bcb4-1b09e7e4a23a",
+            "Value": {
+                "id": "13ffafc9-2021-4410-81d5-472f7fd2cd65",
+                "resourcePath": "objects\\objEMP\\objEMP.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "37ca5eda-0fcb-4abc-9c03-0cd917990246",
             "Value": {
                 "id": "1475a97a-b959-4a6d-8dc2-262a32e2a823",
                 "resourcePath": "sprites\\bg1\\bg1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "39a1a716-829a-4157-84d9-5ca24e02ef9f",
+            "Value": {
+                "id": "6cb84b0c-ad09-4f4a-8481-5b779269af2d",
+                "resourcePath": "sprites\\sParts\\sParts.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -204,6 +236,14 @@
                 "id": "df69e425-2367-4726-9e85-398f5443ccbb",
                 "resourcePath": "sprites\\sWater\\sWater.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3f014c96-1f1d-40d4-a29e-ff0cc143e0ef",
+            "Value": {
+                "id": "a749066c-91aa-4905-975c-ad28881c916d",
+                "resourcePath": "objects\\objAutoCannonPickup\\objAutoCannonPickup.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -242,7 +282,7 @@
             "Key": "454f7d29-e7f7-40c4-8862-32f64573536c",
             "Value": {
                 "id": "04ff7392-6cb6-41f4-a598-0f05a71a9173",
-                "resourcePath": "sounds\\petaling\\petaling.yy",
+                "resourcePath": "sounds\\sPetaling\\sPetaling.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -274,7 +314,7 @@
             "Key": "4c122fc8-03d3-4ba3-8c08-405e44bce2aa",
             "Value": {
                 "id": "7c630e50-24af-4c57-bcd1-8fb808622276",
-                "resourcePath": "sounds\\motorcycleEnd\\motorcycleEnd.yy",
+                "resourcePath": "sounds\\sMotorcycleEnd\\sMotorcycleEnd.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -327,11 +367,43 @@
             }
         },
         {
+            "Key": "66c7f77b-2219-46a8-8c6f-336cda056a27",
+            "Value": {
+                "id": "a7e702da-7d4a-4b30-9194-30909d666f07",
+                "resourcePath": "sprites\\sMenu\\sMenu.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "69081637-6a4e-4dbf-9989-4819f29ea2e9",
+            "Value": {
+                "id": "bb7bca25-6198-4c48-9517-c0ff14aba377",
+                "resourcePath": "objects\\objParts\\objParts.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6a66d7c0-a21e-46c1-83b1-af09c6cb855f",
+            "Value": {
+                "id": "6e604ac9-2a6a-4a3b-ac8e-05e6bd49c147",
+                "resourcePath": "sounds\\sImpactMetal\\sImpactMetal.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6db6bd1d-6724-4dd2-be05-1d78602a4427",
             "Value": {
                 "id": "4654971f-671c-4bc2-a069-99548cbcd48b",
                 "resourcePath": "objects\\objPetalBike\\objPetalBike.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7253f96b-178f-4af1-a7af-854c921dfc69",
+            "Value": {
+                "id": "bea8b4b5-ad3a-4cbd-82ee-edcb47b5803e",
+                "resourcePath": "sprites\\sWtIco\\sWtIco.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -407,10 +479,18 @@
             }
         },
         {
+            "Key": "7d6a31c4-dfb3-4b1e-9605-7410d226fdaf",
+            "Value": {
+                "id": "15d434ba-880e-4958-87d6-56d54fd0a930",
+                "resourcePath": "sprites\\sFdIco\\sFdIco.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7f37a64b-a184-4d44-8c7a-aa75afc35840",
             "Value": {
                 "id": "2e48587f-f49c-4b9b-b0fd-98dcd6d62088",
-                "resourcePath": "sounds\\car\\car.yy",
+                "resourcePath": "sounds\\sCar\\sCar.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -452,6 +532,14 @@
                 "id": "acf7e58f-0471-4649-8e54-ddab21462b02",
                 "resourcePath": "rooms\\rMainMenu\\rMainMenu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "906d283a-ca8f-4672-b531-0cd1e717226e",
+            "Value": {
+                "id": "72c32df5-1afa-45ac-b6fd-d081837ef87b",
+                "resourcePath": "sprites\\sMissileTurretParts\\sMissileTurretParts.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -543,6 +631,22 @@
             }
         },
         {
+            "Key": "a98f9f26-b3a5-4488-9617-a80e80ce76d6",
+            "Value": {
+                "id": "bf199cf8-5bca-4895-ab89-e45397f0e546",
+                "resourcePath": "sprites\\sAutoCannonPickup\\sAutoCannonPickup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aea6c581-e8ca-42d8-ab20-6f3c124c8d54",
+            "Value": {
+                "id": "8754e9df-b06a-4441-820c-60e496fad1fb",
+                "resourcePath": "objects\\objMissileParts\\objMissileParts.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "afbc2d93-f8f7-426e-94f5-0729f53cd0b1",
             "Value": {
                 "id": "8a243434-3189-4ac6-a395-8b17cd1bdeb4",
@@ -594,7 +698,7 @@
             "Key": "cb4e58e4-dfd1-4f86-be4d-93eca6975b41",
             "Value": {
                 "id": "61e008f2-d9b7-4156-a625-3e2a565ad9f3",
-                "resourcePath": "sounds\\motorcycle\\motorcycle.yy",
+                "resourcePath": "sounds\\sMotor\\sMotor.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -634,7 +738,7 @@
             "Key": "dc533ab5-345f-4667-b4db-da5d1748cc00",
             "Value": {
                 "id": "c33d34b6-234e-4fd7-8676-212b6bde64e4",
-                "resourcePath": "sounds\\motorcycleStart\\motorcycleStart.yy",
+                "resourcePath": "sounds\\sMotorcycleStart\\sMotorcycleStart.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -724,6 +828,14 @@
                 "id": "a471916b-b5e3-4503-96c2-b08f54594e68",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f62f7b86-5a51-4fb1-9616-471a79c607e2",
+            "Value": {
+                "id": "b601e295-4732-407c-bc1d-e4b77c0dc924",
+                "resourcePath": "sprites\\sFuelIco\\sFuelIco.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

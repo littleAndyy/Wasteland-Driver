@@ -121,3 +121,27 @@ pMagMax = 8;
 /// @DnDHash : 79141FAA
 /// @DnDArgument : "var" "pMagCurrent"
 pMagCurrent = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3BEE0929
+/// @DnDArgument : "var" "parts"
+parts = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 59A3DC2C
+/// @DnDArgument : "var" "autoCannon"
+autoCannon = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 57AB6FFD
+/// @DnDArgument : "var" "missileTurretParts"
+missileTurretParts = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2DDB8703
+/// @DnDArgument : "var" "empParts"
+empParts = 0;
