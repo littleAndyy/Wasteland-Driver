@@ -4,11 +4,41 @@
 /// @DnDArgument : "speed" "1 * speed"
 image_speed = 1 * speed;
 
-/// @DnDAction : YoYo Games.Paths.Start_Path
-/// @DnDVersion : 1.1
-/// @DnDHash : 0CD3BF0F
-/// @DnDArgument : "path" "path0"
-/// @DnDArgument : "speed" "0.8"
-/// @DnDArgument : "atend" "path_action_continue"
-/// @DnDSaveInfo : "path" "ddc84158-6749-46e4-ae42-09521247fcc8"
-path_start(path0, 0.8, path_action_continue, false);
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
+/// @DnDHash : 0A82BDE9
+/// @DnDArgument : "expr" "zombieHP > 0"
+/// @DnDArgument : "not" "1"
+if(!(zombieHP > 0))
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 15490BCF
+	/// @DnDParent : 0A82BDE9
+	instance_destroy();
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 340E20DC
+/// @DnDArgument : "code" "if ((distance_to_object(objPlayer) < 50))$(13_10){$(13_10)if instance_exists(objPlayer)$(13_10){$(13_10)	move_towards_point(objPlayer.x,objPlayer.y, zSpeed)$(13_10)}$(13_10)else if instance_exists(objPetalBike)$(13_10){$(13_10)	move_towards_point(objPetalBike.x,objPetalBike.y, zSpeed)$(13_10)}$(13_10)else if instance_exists(objMotorcycle)$(13_10){$(13_10)	move_towards_point(objMotorcycle.x,objMotorcycle.y, zSpeed)$(13_10)}$(13_10)else if instance_exists(objCar)$(13_10){$(13_10)	move_towards_point(objCar.x,objCar.y, zSpeed)$(13_10)}$(13_10)}$(13_10)image_angle = direction-90;"
+if ((distance_to_object(objPlayer) < 50))
+{
+if instance_exists(objPlayer)
+{
+	move_towards_point(objPlayer.x,objPlayer.y, zSpeed)
+}
+else if instance_exists(objPetalBike)
+{
+	move_towards_point(objPetalBike.x,objPetalBike.y, zSpeed)
+}
+else if instance_exists(objMotorcycle)
+{
+	move_towards_point(objMotorcycle.x,objMotorcycle.y, zSpeed)
+}
+else if instance_exists(objCar)
+{
+	move_towards_point(objCar.x,objCar.y, zSpeed)
+}
+}
+image_angle = direction-90;

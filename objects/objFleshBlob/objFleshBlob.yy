@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "objFleshBlob",
     "eventList": [
-        
+        {
+            "id": "da6b4cf0-1b22-4fc2-b0ea-ba2716034a35",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "df9b01ba-0803-4f38-bd4e-b18e9db2901c"
+        },
+        {
+            "id": "f003b9f4-eae7-4a97-a370-898e662e9cae",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "df9b01ba-0803-4f38-bd4e-b18e9db2901c"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
