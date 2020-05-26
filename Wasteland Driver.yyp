@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "01309fbd-8245-4630-84cb-f7346dd8c17a",
+            "Value": {
+                "id": "d33ada58-ee85-4926-87ae-3c26e9b7cbc2",
+                "resourcePath": "objects\\objCursor1\\objCursor1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0540d2a6-b3dd-4c84-8adc-92ed45b0e296",
             "Value": {
                 "id": "a0d6138f-e515-4a42-a133-3b6087ce7c8a",
@@ -527,6 +535,14 @@
             }
         },
         {
+            "Key": "89e4c8bf-7270-4d9c-a7d0-46cba44de9d2",
+            "Value": {
+                "id": "75e1e619-7c5d-4140-bfd1-da16e2a061d3",
+                "resourcePath": "rooms\\rGameOver\\rGameOver.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "901aea38-098e-4a0e-bd4d-c7353ddb3543",
             "Value": {
                 "id": "acf7e58f-0471-4649-8e54-ddab21462b02",
@@ -647,6 +663,14 @@
             }
         },
         {
+            "Key": "af1e8c84-b2b1-4b3b-8f7b-3a96eeaf106d",
+            "Value": {
+                "id": "edbde448-0316-4aaa-a372-a9f4264ce5de",
+                "resourcePath": "rooms\\rPauseMenu\\rPauseMenu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "afbc2d93-f8f7-426e-94f5-0729f53cd0b1",
             "Value": {
                 "id": "8a243434-3189-4ac6-a395-8b17cd1bdeb4",
@@ -684,6 +708,14 @@
                 "id": "5c09a732-88b8-4c9a-bb49-457f9933d4af",
                 "resourcePath": "views\\bb4bf8d9-dfea-40e1-a7ff-bf1edce51935.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c48ddeaf-0a53-42c9-b3d2-0795d18857f8",
+            "Value": {
+                "id": "c6516930-053a-453f-a6d4-ec4d1ea618b4",
+                "resourcePath": "sprites\\sCursor1\\sCursor1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

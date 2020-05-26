@@ -145,3 +145,16 @@ missileTurretParts = 0;
 /// @DnDHash : 2DDB8703
 /// @DnDArgument : "var" "empParts"
 empParts = 0;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 5C85E55C
+/// @DnDArgument : "code" "if (objCamera.playerObject=objPlayer || objCamera.playerObject=objPetalBike || objCamera.playerObject=objMotorcycle || objCamera.playerObject=objCar)$(13_10){$(13_10)	//if (objPause.pause=0)$(13_10)	//{$(13_10)		window_set_cursor(cr_none);$(13_10)		cursor_sprite = sCursor1;$(13_10)	//}$(13_10)}"
+if (objCamera.playerObject=objPlayer || objCamera.playerObject=objPetalBike || objCamera.playerObject=objMotorcycle || objCamera.playerObject=objCar)
+{
+	//if (objPause.pause=0)
+	//{
+		window_set_cursor(cr_none);
+		cursor_sprite = sCursor1;
+	//}
+}
