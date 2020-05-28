@@ -145,3 +145,21 @@ missileTurretParts = 0;
 /// @DnDHash : 2DDB8703
 /// @DnDArgument : "var" "empParts"
 empParts = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 15E453AE
+/// @DnDArgument : "var" "car"
+car = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3F2C0682
+/// @DnDArgument : "var" "weapon"
+weapon = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 38232BCE
+/// @DnDArgument : "var" "cannonAmmo"
+cannonAmmo = 0;

@@ -27,13 +27,6 @@ if(weaponSelected = 0)
 	/// @DnDSaveInfo : "spriteind" "484fab4e-f36c-4280-bcea-62f755c1cb91"
 	sprite_index = sPlayer;
 	image_index += 0;
-
-	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
-	/// @DnDVersion : 1
-	/// @DnDHash : 63E48472
-	/// @DnDParent : 41B29FB0
-	/// @DnDArgument : "speed" "1 * speed"
-	image_speed = 1 * speed;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Expression
@@ -66,13 +59,6 @@ if(weaponSelected = 1)
 			/// @DnDSaveInfo : "spriteind" "1398e45e-f861-4283-9300-3abfcb316e14"
 			sprite_index = sPlayer1;
 			image_index += 0;
-		
-			/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
-			/// @DnDVersion : 1
-			/// @DnDHash : 4B3EE5CF
-			/// @DnDParent : 22AFAAC0
-			/// @DnDArgument : "speed" "1 * speed"
-			image_speed = 1 * speed;
 		}
 	}
 
@@ -173,13 +159,6 @@ if(weaponSelected = 2)
 			/// @DnDSaveInfo : "spriteind" "5c87e466-43c3-464a-ad2b-ab8512fcdb11"
 			sprite_index = sPlayer2;
 			image_index += 0;
-		
-			/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
-			/// @DnDVersion : 1
-			/// @DnDHash : 33214AFC
-			/// @DnDParent : 676437CF
-			/// @DnDArgument : "speed" "1 * speed"
-			image_speed = 1 * speed;
 		}
 	}
 
@@ -225,9 +204,9 @@ if(weaponSelected = 2)
 			/// @DnDVersion : 1
 			/// @DnDHash : 279C4B1E
 			/// @DnDParent : 2A411C6B
-			/// @DnDArgument : "steps" "room_speed * 0.5"
+			/// @DnDArgument : "steps" "room_speed * 0.7"
 			/// @DnDArgument : "alarm" "1"
-			alarm_set(1, room_speed * 0.5);
+			alarm_set(1, room_speed * 0.7);
 		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1
@@ -280,13 +259,6 @@ if(weaponSelected = 3)
 			/// @DnDSaveInfo : "spriteind" "7b8180c0-f3ed-44c0-90a7-a2a11ace36aa"
 			sprite_index = sPlayer3;
 			image_index += 0;
-		
-			/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
-			/// @DnDVersion : 1
-			/// @DnDHash : 4BCEA1FF
-			/// @DnDParent : 348B5ECC
-			/// @DnDArgument : "speed" "1 * speed"
-			image_speed = 1 * speed;
 		}
 	}
 

@@ -11,3 +11,9 @@ if (speed > 0)
 direction = image_angle;
 */
 //x+=1;/**/
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 592764CB
+/// @DnDArgument : "speed" "0"
+image_speed = 0;

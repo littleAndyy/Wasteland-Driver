@@ -8,9 +8,9 @@ if(action = 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3B61481B
 	/// @DnDParent : 4CA4C4D5
-	/// @DnDArgument : "room" "rRoom1"
-	/// @DnDSaveInfo : "room" "4103cc75-cb5b-4c0f-8802-841d1a43c563"
-	room_goto(rRoom1);
+	/// @DnDArgument : "room" "rRoom0"
+	/// @DnDSaveInfo : "room" "dd2e46e2-56ae-454a-b762-31ba8896f62e"
+	room_goto(rRoom0);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Expression
@@ -49,11 +49,39 @@ if(action = 4)
 	/// @DnDVersion : 1
 	/// @DnDHash : 251FD152
 	/// @DnDParent : 6A0E83A7
-	/// @DnDArgument : "code" "objPause.pause=0;$(13_10)if (objPause.currentRoom=1)$(13_10){$(13_10)room=rRoom1;$(13_10)}"
+	/// @DnDArgument : "code" "objPause.pause=0;$(13_10)if (objPause.currentRoom=0)$(13_10){$(13_10)	room=rRoom0;$(13_10)}$(13_10)else if (objPause.currentRoom=1)$(13_10){$(13_10)	room=rRoom1;$(13_10)}$(13_10)else if (objPause.currentRoom=2)$(13_10){$(13_10)	room=rRoom2;$(13_10)}$(13_10)else if (objPause.currentRoom=3)$(13_10){$(13_10)	room=rRoom3;$(13_10)}$(13_10)else if (objPause.currentRoom=4)$(13_10){$(13_10)	room=rRoom4;$(13_10)}$(13_10)else if (objPause.currentRoom=5)$(13_10){$(13_10)	room=rRoom5;$(13_10)}$(13_10)else if (objPause.currentRoom=6)$(13_10){$(13_10)	room=rRoom6;$(13_10)}$(13_10)else if (objPause.currentRoom=7)$(13_10){$(13_10)	room=rDevRoom;$(13_10)}"
 	objPause.pause=0;
-	if (objPause.currentRoom=1)
+	if (objPause.currentRoom=0)
 	{
-	room=rRoom1;
+		room=rRoom0;
+	}
+	else if (objPause.currentRoom=1)
+	{
+		room=rRoom1;
+	}
+	else if (objPause.currentRoom=2)
+	{
+		room=rRoom2;
+	}
+	else if (objPause.currentRoom=3)
+	{
+		room=rRoom3;
+	}
+	else if (objPause.currentRoom=4)
+	{
+		room=rRoom4;
+	}
+	else if (objPause.currentRoom=5)
+	{
+		room=rRoom5;
+	}
+	else if (objPause.currentRoom=6)
+	{
+		room=rRoom6;
+	}
+	else if (objPause.currentRoom=7)
+	{
+		room=rDevRoom;
 	}
 }
 

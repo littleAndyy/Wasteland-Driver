@@ -41,3 +41,9 @@ reloading = 0;
 /// @DnDHash : 5D96F64B
 /// @DnDArgument : "var" "depth"
 depth = 0;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 6F927C9C
+/// @DnDArgument : "speed" "0"
+image_speed = 0;
