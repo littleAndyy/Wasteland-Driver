@@ -7,6 +7,5 @@ pause = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 486215CB
-/// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "currentRoom"
-currentRoom = 1;
+currentRoom = 0;

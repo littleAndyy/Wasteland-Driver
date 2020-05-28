@@ -11,3 +11,17 @@ if (speed < 1)
 direction = image_angle;
 */
 y+=-1;/**/
+
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
+/// @DnDHash : 20E3A53E
+/// @DnDArgument : "expr" "attacking = 1"
+/// @DnDArgument : "not" "1"
+if(!(attacking = 1))
+{
+	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 4EB0971B
+	/// @DnDParent : 20E3A53E
+	image_speed = 1;
+}

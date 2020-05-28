@@ -1,7 +1,24 @@
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
+/// @DnDHash : 034D2002
+/// @DnDArgument : "expr" "objCamera.playerObject = objPetalBike"
+if(objCamera.playerObject = objPetalBike)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 4B1F7A58
+	/// @DnDParent : 034D2002
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "sBikeUse"
+	/// @DnDSaveInfo : "spriteind" "d0d2cca1-63a6-492a-b029-6b8971dce617"
+	sprite_index = sBikeUse;
+	image_index += 0;
+}
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0E966A87
-/// @DnDArgument : "code" "//Decelleration$(13_10)$(13_10)if !(keyboard_check(ord("W") || ("S") || ("D") || ("A")))$(13_10){$(13_10)	if (speed != 0)$(13_10)	{$(13_10)		friction= 0.1;$(13_10)	}$(13_10)}"
+/// @DnDArgument : "code" "//Decelleration$(13_10)$(13_10)if !(keyboard_check(ord("W") || ("S") || ("D") || ("A")))$(13_10){$(13_10)	if (speed != 0)$(13_10)	{$(13_10)		friction= 0.1;$(13_10)	}$(13_10)}$(13_10)"
 //Decelleration
 
 if !(keyboard_check(ord("W") || ("S") || ("D") || ("A")))
@@ -71,3 +88,9 @@ if(y >= room_height -200)
 	/// @DnDArgument : "var" "y"
 	y = room_width-200;
 }
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 33B6DA63
+/// @DnDArgument : "speed" "1 * speed"
+image_speed = 1 * speed;

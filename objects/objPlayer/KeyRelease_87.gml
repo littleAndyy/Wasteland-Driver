@@ -17,3 +17,9 @@ if (!(keyboard_check_pressed(ord("W"))) && (keyboard_check_pressed(ord("D"))) ||
 }
 */
 //y+=-1;/**/
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 5B1CAF8D
+/// @DnDArgument : "speed" "0"
+image_speed = 0;
