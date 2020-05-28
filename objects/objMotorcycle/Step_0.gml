@@ -1,3 +1,28 @@
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
+/// @DnDHash : 5F911E7D
+/// @DnDArgument : "expr" "objCamera.playerObject = objMotorcycle"
+if(objCamera.playerObject = objMotorcycle)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 3B19C1C4
+	/// @DnDParent : 5F911E7D
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "sMotorcycleUse"
+	/// @DnDSaveInfo : "spriteind" "a334d534-e829-40a8-9692-a2424ac1dabb"
+	sprite_index = sMotorcycleUse;
+	image_index += 0;
+}
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+/// @DnDVersion : 1
+/// @DnDHash : 3D9BD477
+/// @DnDArgument : "xscale" "1/2"
+/// @DnDArgument : "yscale" "1/2"
+image_xscale = 1/2;
+image_yscale = 1/2;
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0E966A87

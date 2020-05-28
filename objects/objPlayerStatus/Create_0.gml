@@ -146,15 +146,20 @@ missileTurretParts = 0;
 /// @DnDArgument : "var" "empParts"
 empParts = 0;
 
-/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 5C85E55C
-/// @DnDArgument : "code" "if (objCamera.playerObject=objPlayer || objCamera.playerObject=objPetalBike || objCamera.playerObject=objMotorcycle || objCamera.playerObject=objCar)$(13_10){$(13_10)	//if (objPause.pause=0)$(13_10)	//{$(13_10)		window_set_cursor(cr_none);$(13_10)		cursor_sprite = sCursor1;$(13_10)	//}$(13_10)}"
-if (objCamera.playerObject=objPlayer || objCamera.playerObject=objPetalBike || objCamera.playerObject=objMotorcycle || objCamera.playerObject=objCar)
-{
-	//if (objPause.pause=0)
-	//{
-		window_set_cursor(cr_none);
-		cursor_sprite = sCursor1;
-	//}
-}
+/// @DnDHash : 15E453AE
+/// @DnDArgument : "var" "car"
+car = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3F2C0682
+/// @DnDArgument : "var" "weapon"
+weapon = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 38232BCE
+/// @DnDArgument : "var" "cannonAmmo"
+cannonAmmo = 0;
