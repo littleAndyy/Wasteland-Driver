@@ -21,14 +21,19 @@ if(!(zombieHP > 0))
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 340E20DC
-/// @DnDArgument : "code" "if ((distance_to_object(objPlayer) < 50))$(13_10){$(13_10)	if (rotate = 1)$(13_10)	{$(13_10)if instance_exists(objPlayer)$(13_10){$(13_10)	move_towards_point(objPlayer.x,objPlayer.y, zSpeed)$(13_10)}$(13_10)else if instance_exists(objPetalBike)$(13_10){$(13_10)	move_towards_point(objPetalBike.x,objPetalBike.y, zSpeed)$(13_10)}$(13_10)else if instance_exists(objMotorcycle)$(13_10){$(13_10)	move_towards_point(objMotorcycle.x,objMotorcycle.y, zSpeed)$(13_10)}$(13_10)else if instance_exists(objCar)$(13_10){$(13_10)	move_towards_point(objCar.x,objCar.y, zSpeed)$(13_10)}$(13_10)}$(13_10)image_angle = direction-90;$(13_10)}"
-if ((distance_to_object(objPlayer) < 50))
+/// @DnDArgument : "code" "mp_potential_settings(85, 55, 6, 1);$(13_10)if ((distance_to_object(objPlayer) < 100))$(13_10){$(13_10)	if (rotate = 1)$(13_10)	{$(13_10)if instance_exists(objPlayer)$(13_10){$(13_10)	mp_potential_step_object(objPlayer.x,objPlayer.y,0.8,objCar);$(13_10)	mp_potential_step_object(objPlayer.x,objPlayer.y,0,objPetalBike);$(13_10)	mp_potential_step_object(objPlayer.x,objPlayer.y,0,objMotorcycle);$(13_10)	//mp_potential_step_object(objPlayer.x,objPlayer.y,0,objZombie);$(13_10)	$(13_10)}$(13_10)else if instance_exists(objPetalBike)$(13_10){$(13_10)	move_towards_point(objPetalBike.x,objPetalBike.y, zSpeed)$(13_10)}$(13_10)else if instance_exists(objMotorcycle)$(13_10){$(13_10)	move_towards_point(objMotorcycle.x,objMotorcycle.y, zSpeed)$(13_10)}$(13_10)else if instance_exists(objCar)$(13_10){$(13_10)	move_towards_point(objCar.x,objCar.y, zSpeed)$(13_10)}$(13_10)}$(13_10)image_angle = direction-90;$(13_10)}"
+mp_potential_settings(85, 55, 6, 1);
+if ((distance_to_object(objPlayer) < 100))
 {
 	if (rotate = 1)
 	{
 if instance_exists(objPlayer)
 {
-	move_towards_point(objPlayer.x,objPlayer.y, zSpeed)
+	mp_potential_step_object(objPlayer.x,objPlayer.y,0.8,objCar);
+	mp_potential_step_object(objPlayer.x,objPlayer.y,0,objPetalBike);
+	mp_potential_step_object(objPlayer.x,objPlayer.y,0,objMotorcycle);
+	//mp_potential_step_object(objPlayer.x,objPlayer.y,0,objZombie);
+	
 }
 else if instance_exists(objPetalBike)
 {
@@ -49,7 +54,7 @@ image_angle = direction-90;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 36EA2497
-/// @DnDArgument : "code" "if (rotate = 0)$(13_10){$(13_10)image_angle = (irandom(360));$(13_10)rotate = 1;$(13_10)}"
+/// @DnDArgument : "code" "if (rotate = 0)$(13_10){$(13_10)image_angle = (irandom(360));$(13_10)rotate = 1;$(13_10)}$(13_10)"
 if (rotate = 0)
 {
 image_angle = (irandom(360));

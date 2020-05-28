@@ -112,9 +112,9 @@ pAmmo = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 29BD4672
-/// @DnDArgument : "expr" "8"
+/// @DnDArgument : "expr" "12"
 /// @DnDArgument : "var" "pMagMax"
-pMagMax = 8;
+pMagMax = 12;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

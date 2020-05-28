@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "11ef1748-f795-4732-89df-29b5a19fe442",
+            "Value": {
+                "id": "6e6ba528-1a58-47f6-b13d-26d24339c2b2",
+                "resourcePath": "sprites\\sGasMeterPiece\\sGasMeterPiece.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1398e45e-f861-4283-9300-3abfcb316e14",
             "Value": {
                 "id": "b9893227-03b9-4c20-9df6-c4b1cfad85ea",
@@ -348,6 +356,14 @@
                 "id": "a13f94ce-8f08-4173-bdec-f22cbfb4db5f",
                 "resourcePath": "views\\2eda8d1b-b30f-475c-9318-af17727dca99.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3101373d-ffaf-4505-bdfe-6e41510b84f6",
+            "Value": {
+                "id": "7a5bcd45-f1fe-4184-9dfd-639d9e7abb40",
+                "resourcePath": "sprites\\sStatusBarWidget\\sStatusBarWidget.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1156,6 +1172,14 @@
                 "id": "dd707cd8-f741-4c83-a87a-fa0848ca70dc",
                 "resourcePath": "objects\\objBandage\\objBandage.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b1e086fd-6118-4df0-8dcc-2aaf51edf47e",
+            "Value": {
+                "id": "3a1dfb4e-7bc5-441f-ae8a-271c63a55053",
+                "resourcePath": "sprites\\sGasMeter\\sGasMeter.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

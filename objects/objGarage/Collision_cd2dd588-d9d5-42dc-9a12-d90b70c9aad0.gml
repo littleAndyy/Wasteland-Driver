@@ -26,4 +26,10 @@ if(cooldown = 0)
 	/// @DnDArgument : "expr" "2"
 	/// @DnDArgument : "var" "cooldown"
 	cooldown = 2;
+
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 52A3D2B9
+	/// @DnDParent : 015297A4
+	instance_destroy();
 }

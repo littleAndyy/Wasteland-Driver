@@ -187,8 +187,8 @@ if(weaponSelected = 2)
 			/// @DnDVersion : 1
 			/// @DnDHash : 5FA8E63B
 			/// @DnDParent : 2A411C6B
-			/// @DnDArgument : "speed" "2"
-			image_speed = 2;
+			/// @DnDArgument : "speed" "1.9"
+			image_speed = 1.9;
 		
 			/// @DnDAction : YoYo Games.Instances.Set_Sprite
 			/// @DnDVersion : 1
