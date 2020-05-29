@@ -20,6 +20,15 @@ if(cooldown = 0)
 	/// @DnDArgument : "var" "cooldown"
 	cooldown = 2;
 
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 64388D77
+	/// @DnDParent : 562A9A42
+	/// @DnDArgument : "code" "objPlayer.vspeed=0;$(13_10)objPlayer.hspeed=0;$(13_10)objPlayer.image_speed=0;"
+	objPlayer.vspeed=0;
+	objPlayer.hspeed=0;
+	objPlayer.image_speed=0;
+
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 37237F3A

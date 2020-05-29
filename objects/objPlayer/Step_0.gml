@@ -451,6 +451,24 @@ alarm_set(4,room_speed * 1.8)
 }
 }
 
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 03BF7FAC
+/// @DnDArgument : "code" "//Custom Solid Collision$(13_10)if (place_meeting(x+hspeed,y,objWoodWall)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objWoodWall)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objWoodWallHalf)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objWoodWallHalf)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objWoodWallQuarter)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objWoodWallQuarter)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objConcreteWall)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objConcreteWall)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objConcreteWallHalf)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objConcreteWallHalf)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objConcreteWallQuarter)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objConcreteWallQuarter)) vspeed=0;"
+//Custom Solid Collision
+if (place_meeting(x+hspeed,y,objWoodWall)) hspeed=0;
+if (place_meeting(x,y+vspeed,objWoodWall)) vspeed=0;
+if (place_meeting(x+hspeed,y,objWoodWallHalf)) hspeed=0;
+if (place_meeting(x,y+vspeed,objWoodWallHalf)) vspeed=0;
+if (place_meeting(x+hspeed,y,objWoodWallQuarter)) hspeed=0;
+if (place_meeting(x,y+vspeed,objWoodWallQuarter)) vspeed=0;
+if (place_meeting(x+hspeed,y,objConcreteWall)) hspeed=0;
+if (place_meeting(x,y+vspeed,objConcreteWall)) vspeed=0;
+if (place_meeting(x+hspeed,y,objConcreteWallHalf)) hspeed=0;
+if (place_meeting(x,y+vspeed,objConcreteWallHalf)) vspeed=0;
+if (place_meeting(x+hspeed,y,objConcreteWallQuarter)) hspeed=0;
+if (place_meeting(x,y+vspeed,objConcreteWallQuarter)) vspeed=0;
+
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 667E6B90

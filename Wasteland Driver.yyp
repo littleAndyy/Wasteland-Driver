@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "0c32fcf5-6564-4b28-8ee7-62e81a575db5",
+            "Value": {
+                "id": "5ed9d45a-a6fe-44d5-ad29-73175ba4285e",
+                "resourcePath": "objects\\objConcreteWall\\objConcreteWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0c41287f-3fb5-42cd-9972-e0ba9a497b3b",
             "Value": {
                 "id": "787d7cc7-e207-40ad-8416-f539b07c18f0",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "0d45ac06-bba9-4e7a-82be-85684fcfb4ec",
+            "Value": {
+                "id": "ec3424f6-fe8b-46de-a15d-9128b1f56d47",
+                "resourcePath": "sprites\\sDirt1\\sDirt1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0dc18553-8b43-441f-8802-e05e349c2e8a",
             "Value": {
                 "id": "75b3f90e-eeb0-48bc-80a6-e4ee9c6a842c",
@@ -167,6 +183,14 @@
             }
         },
         {
+            "Key": "1037ab5b-7424-4e38-8ac8-f25b2e71b047",
+            "Value": {
+                "id": "ca17fa98-acd9-432d-b9cd-7139eece9a9b",
+                "resourcePath": "views\\1037ab5b-7424-4e38-8ac8-f25b2e71b047.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1136bb12-590e-47a9-889c-1c1dccf45e3e",
             "Value": {
                 "id": "101b303b-b858-4c8f-aa9a-2a542cb5ed93",
@@ -179,6 +203,14 @@
             "Value": {
                 "id": "6e6ba528-1a58-47f6-b13d-26d24339c2b2",
                 "resourcePath": "sprites\\sGasMeterPiece\\sGasMeterPiece.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "12f697de-4615-49d1-95d6-b05759407799",
+            "Value": {
+                "id": "94075fe6-d0b4-498b-892e-819e747242eb",
+                "resourcePath": "sprites\\sDoorGlass2\\sDoorGlass2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -223,6 +255,14 @@
             }
         },
         {
+            "Key": "1ede6198-d449-49fb-a418-3274c9e1f8ab",
+            "Value": {
+                "id": "451bbd86-9cc9-4dc1-8c75-48ece5745351",
+                "resourcePath": "objects\\objGlassDoor2\\objGlassDoor2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1f5d3b79-ee86-46af-b966-d74efa6c87f6",
             "Value": {
                 "id": "ffb233aa-3627-4e3a-a0e7-624ef8019b9f",
@@ -260,6 +300,14 @@
                 "id": "03168332-c8a0-4ab8-8a12-16a16bfb0518",
                 "resourcePath": "objects\\objBulletCannon\\objBulletCannon.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2207d764-47fc-4e1c-89b6-9300c0a80817",
+            "Value": {
+                "id": "17d3241b-a8c6-46a6-aaa1-e43dae6c7367",
+                "resourcePath": "sprites\\sWoodWallQuarter\\sWoodWallQuarter.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -447,6 +495,14 @@
             }
         },
         {
+            "Key": "3a21b70f-4f34-4cdd-9fec-785bfb1b1afc",
+            "Value": {
+                "id": "4192233a-1b6f-4164-a6ed-e87946562cc2",
+                "resourcePath": "objects\\objWoodDoor2\\objWoodDoor2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3a4596ea-86f4-4145-bac4-579c7357d996",
             "Value": {
                 "id": "ee7f15e3-dd96-4b12-8d1d-732954774871",
@@ -583,6 +639,14 @@
             }
         },
         {
+            "Key": "47df6bef-d4d5-4396-974a-3130b09aa3b8",
+            "Value": {
+                "id": "c4e396e7-ae2d-44f3-a132-79392efaf7cb",
+                "resourcePath": "objects\\objFence\\objFence.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "481c7f5a-0f5e-41ae-a0ee-54882c3179e1",
             "Value": {
                 "id": "287a6de6-b071-440f-a781-ad73bfec89f1",
@@ -612,6 +676,14 @@
                 "id": "9f3e6787-cb3a-4f5c-ab3e-b515a0aaf90b",
                 "resourcePath": "sprites\\sAutoCannonIdle\\sAutoCannonIdle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4bb0ffe4-8153-48b8-bc5c-738461105aa4",
+            "Value": {
+                "id": "ab56c753-be8a-4520-8675-0cf736b4421e",
+                "resourcePath": "objects\\objMetalDoor2\\objMetalDoor2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -655,6 +727,14 @@
             }
         },
         {
+            "Key": "5ad2367c-b6ac-451b-95be-4647396b2a1f",
+            "Value": {
+                "id": "8cabf65e-0bfb-4dc7-afc1-7f8431a023ba",
+                "resourcePath": "sprites\\sBlood\\sBlood.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5bc707e0-46b5-4a96-9149-4cb549806006",
             "Value": {
                 "id": "abc851fa-4ea2-4fcf-89ea-6578f8a5858c",
@@ -684,6 +764,14 @@
                 "id": "a7e702da-7d4a-4b30-9194-30909d666f07",
                 "resourcePath": "sprites\\sMenu\\sMenu.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6747f64d-b9eb-4275-b114-bf13a228aad4",
+            "Value": {
+                "id": "d6cbdbaf-6cff-468b-92c3-a50135e7e8eb",
+                "resourcePath": "objects\\objWoodWallHalf\\objWoodWallHalf.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -911,6 +999,14 @@
             }
         },
         {
+            "Key": "89d49a5a-1c54-4090-8dff-c90c483f9a2f",
+            "Value": {
+                "id": "ce32bcf5-da6b-47e0-8e22-690d880b8f1c",
+                "resourcePath": "objects\\objWoodWallQuarter\\objWoodWallQuarter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "89e4c8bf-7270-4d9c-a7d0-46cba44de9d2",
             "Value": {
                 "id": "75e1e619-7c5d-4140-bfd1-da16e2a061d3",
@@ -959,11 +1055,27 @@
             }
         },
         {
+            "Key": "94d3a98e-1295-4de6-8680-317a048e003c",
+            "Value": {
+                "id": "e9a5ed64-d2db-4036-910c-5a41240c7099",
+                "resourcePath": "objects\\Blood\\Blood.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "95251181-8723-4547-8ad6-8b1baf91c776",
             "Value": {
                 "id": "d9479b48-17e0-45ac-b983-66b9e1b0aba9",
                 "resourcePath": "objects\\objFood\\objFood.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "977bd50a-1c27-4b06-a5c6-5e9da8808d25",
+            "Value": {
+                "id": "07d3f076-d971-4f28-93af-883d11cf8c1b",
+                "resourcePath": "sprites\\sConcreteWallHalf\\sConcreteWallHalf.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -996,6 +1108,14 @@
                 "id": "da11d825-3daf-418a-a6f9-894f71350bd7",
                 "resourcePath": "fonts\\f_3\\f_3.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "9c9b6510-ff2b-4db4-b713-29a4f80826c8",
+            "Value": {
+                "id": "4a9f0914-c73e-4832-b1f0-f09eaf54943a",
+                "resourcePath": "sprites\\sWoodWallHalf\\sWoodWallHalf.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1127,6 +1247,14 @@
             }
         },
         {
+            "Key": "ad0f1859-b2af-479d-950d-59c6eba91e4b",
+            "Value": {
+                "id": "91f0725c-01f8-4290-a2db-4fb1efbef180",
+                "resourcePath": "sprites\\sDirt2\\sDirt2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ad8355b8-f126-4f5a-a6c9-9abbade5fd65",
             "Value": {
                 "id": "c887ea02-516e-4ae2-8cf9-14f90cd34683",
@@ -1183,10 +1311,34 @@
             }
         },
         {
+            "Key": "b4894aac-11a1-44ca-b4f9-6a0d01953417",
+            "Value": {
+                "id": "58eeb8d2-31cc-44e9-a869-dc5579f94d04",
+                "resourcePath": "objects\\objWoodDoor\\objWoodDoor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b737381c-9e3c-46b5-9c6b-9010fa1b5be8",
             "Value": {
                 "id": "dcc2277c-e00b-4c29-9db4-22b1a3d07835",
                 "resourcePath": "sprites\\sFleshBlob\\sFleshBlob.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b90060b2-90ed-45c5-bce8-dbf2d5b2b1a3",
+            "Value": {
+                "id": "36096064-f785-4a7a-a272-546ab7a409a3",
+                "resourcePath": "sprites\\sDoorMetal2\\sDoorMetal2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ba1abbcd-9fac-4ebf-b672-6976f085d262",
+            "Value": {
+                "id": "61883af9-e17d-4c3b-9bb5-ae974e52081b",
+                "resourcePath": "sprites\\sDoorWood2\\sDoorWood2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1287,6 +1439,14 @@
             }
         },
         {
+            "Key": "cbef8a29-774f-44be-a6e0-68ec0ff7ac42",
+            "Value": {
+                "id": "63618aa6-8c72-4644-a743-6c994e9e93dd",
+                "resourcePath": "objects\\objConcreteWallQuarter\\objConcreteWallQuarter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "4728f2bb-df5f-4b41-b43d-a3fc880cf525",
@@ -1300,6 +1460,14 @@
                 "id": "f17a3129-d2a0-4026-971c-dadc98feaeb3",
                 "resourcePath": "views\\cf4afd0a-edfc-43d8-a823-1d82448e75a9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cf871596-89cf-4daf-b623-94f6bc97eb35",
+            "Value": {
+                "id": "5f149d56-cce3-4e40-8020-840edc374f23",
+                "resourcePath": "objects\\objConcreteWallHalf\\objConcreteWallHalf.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1335,6 +1503,14 @@
             }
         },
         {
+            "Key": "d8bfe00d-5916-4cf5-b2fa-4a97257aedd4",
+            "Value": {
+                "id": "ef3a27f0-b075-4fb6-9518-882159a54df5",
+                "resourcePath": "objects\\objMetalDoor\\objMetalDoor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d90913f2-2833-4f5a-97a4-62a7facbb0c0",
             "Value": {
                 "id": "531ec354-97e0-4396-96ab-bfa65cbb0f46",
@@ -1348,6 +1524,22 @@
                 "id": "21352aa0-6188-4c3a-8a21-6094516f3ddd",
                 "resourcePath": "sprites\\sBandage\\sBandage.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d98d6d0b-9ee2-474e-b42f-166841aa182b",
+            "Value": {
+                "id": "c117deb2-3762-468e-b9ea-a85b11545216",
+                "resourcePath": "sprites\\sConcreteWallQuarter\\sConcreteWallQuarter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dba7ef46-b5cc-48cb-958d-461baa8b8872",
+            "Value": {
+                "id": "3e182e07-07a2-40e9-a3bb-db0215de3e7c",
+                "resourcePath": "objects\\objWoodWall\\objWoodWall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1372,14 +1564,6 @@
                 "id": "5fdf52f8-fc34-4f05-a4a9-9ecd8a2f69b6",
                 "resourcePath": "rooms\\rRoom0\\rRoom0.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "ddc84158-6749-46e4-ae42-09521247fcc8",
-            "Value": {
-                "id": "b3bed4f7-633b-452f-9f9c-f669c36fdf81",
-                "resourcePath": "paths\\path0\\path0.yy",
-                "resourceType": "GMPath"
             }
         },
         {
@@ -1564,6 +1748,14 @@
                 "id": "f7b49a90-879e-4daa-91dc-28733a2dcd1e",
                 "resourcePath": "views\\f8ff932b-749c-4c68-800f-e3337f6abb72.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f9f4d98d-968b-40b0-939d-82e3e8e27882",
+            "Value": {
+                "id": "bf91c964-9ca1-4cec-a3b6-56489a89a624",
+                "resourcePath": "objects\\objGlassDoor\\objGlassDoor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
