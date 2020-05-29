@@ -255,6 +255,22 @@
             }
         },
         {
+            "Key": "1a7d4ab1-f643-4165-836c-656d29a69cbd",
+            "Value": {
+                "id": "d1be1687-b6fd-46f5-9038-ac8bd8a51da1",
+                "resourcePath": "objects\\objGlass1\\objGlass1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1b0c7323-eb43-449e-9c76-caf54259fcb4",
+            "Value": {
+                "id": "d78d5db9-144e-4711-a746-5b8d730c00be",
+                "resourcePath": "objects\\objWoodWall90d\\objWoodWall90d.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1ede6198-d449-49fb-a418-3274c9e1f8ab",
             "Value": {
                 "id": "451bbd86-9cc9-4dc1-8c75-48ece5745351",
@@ -315,6 +331,14 @@
             "Value": {
                 "id": "a091d51d-8774-4ac2-a014-ee8d3a07fdf3",
                 "resourcePath": "sprites\\sWrangler\\sWrangler.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "24c3ca2d-36e0-44b4-b6d5-4b7843951930",
+            "Value": {
+                "id": "8a88f5d3-c6ae-4867-ada4-bdf8d188db17",
+                "resourcePath": "sprites\\sWoodWall90d\\sWoodWall90d.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1315,6 +1339,14 @@
             "Value": {
                 "id": "58eeb8d2-31cc-44e9-a869-dc5579f94d04",
                 "resourcePath": "objects\\objWoodDoor\\objWoodDoor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b6f7138f-7927-4afb-8b4b-dc701f99bcb2",
+            "Value": {
+                "id": "e26788f9-0556-42c6-bc2d-f735ccb53416",
+                "resourcePath": "objects\\objGlass2\\objGlass2.yy",
                 "resourceType": "GMObject"
             }
         },
