@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "024ca234-e6d9-4fe0-84cf-da8ff1d90563",
+            "Value": {
+                "id": "cf88299f-0f88-4d83-9f15-f000cb8908b2",
+                "resourcePath": "views\\024ca234-e6d9-4fe0-84cf-da8ff1d90563.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0540d2a6-b3dd-4c84-8adc-92ed45b0e296",
             "Value": {
                 "id": "a0d6138f-e515-4a42-a133-3b6087ce7c8a",
@@ -92,6 +100,14 @@
                 "id": "8a8926f9-c29e-4d26-b3cc-747853e18028",
                 "resourcePath": "objects\\objButtonMotorcycle\\objButtonMotorcycle.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "07e46fcf-be7e-4a69-9806-dbf442172d80",
+            "Value": {
+                "id": "2d05446b-6aa5-4b83-9814-efc5fb39383a",
+                "resourcePath": "views\\07e46fcf-be7e-4a69-9806-dbf442172d80.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -223,11 +239,27 @@
             }
         },
         {
+            "Key": "123450ea-456a-461b-adc3-24b899d5b353",
+            "Value": {
+                "id": "59f29a32-a069-4aa0-8a8e-e0e2f573b35f",
+                "resourcePath": "views\\123450ea-456a-461b-adc3-24b899d5b353.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "12f697de-4615-49d1-95d6-b05759407799",
             "Value": {
                 "id": "94075fe6-d0b4-498b-892e-819e747242eb",
                 "resourcePath": "sprites\\sDoorGlass2\\sDoorGlass2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "130a1f8e-c0d5-4247-86e3-7c7e534d58fc",
+            "Value": {
+                "id": "74dba5fb-dfb3-4382-9609-5ebf5576c987",
+                "resourcePath": "objects\\objSandStraight\\objSandStraight.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -275,6 +307,22 @@
             "Value": {
                 "id": "d1be1687-b6fd-46f5-9038-ac8bd8a51da1",
                 "resourcePath": "objects\\objGlass1\\objGlass1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1a7fca72-f613-4160-b3f3-0962e5565fd2",
+            "Value": {
+                "id": "2b4a6b66-2d15-4941-8d74-c41ca7146908",
+                "resourcePath": "sprites\\sAsphaltRoadTurnRight\\sAsphaltRoadTurnRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1af5ebc3-bbce-45ba-8eef-b03a54fa4ab6",
+            "Value": {
+                "id": "0fb5ef6e-81fa-41c4-b526-53c55bda9ca7",
+                "resourcePath": "objects\\objDirtRight\\objDirtRight.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -335,6 +383,14 @@
             }
         },
         {
+            "Key": "20dc3992-ccd7-4140-b6aa-c3990b3ad248",
+            "Value": {
+                "id": "a558a28c-0ab4-4dff-8c42-d5c8ac69e97b",
+                "resourcePath": "sprites\\sDirtStraight\\sDirtStraight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2133e65b-a81b-408d-991e-e57091b04d24",
             "Value": {
                 "id": "d31bae48-545a-4fb2-8cc3-acd3900e8032",
@@ -355,6 +411,14 @@
             "Value": {
                 "id": "17d3241b-a8c6-46a6-aaa1-e43dae6c7367",
                 "resourcePath": "sprites\\sWoodWallQuarter\\sWoodWallQuarter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "234ffd57-17ea-4647-8de9-7fb471b4eb62",
+            "Value": {
+                "id": "dc50d730-8842-40f1-901d-2d89e74488a4",
+                "resourcePath": "sprites\\sSandTurnRight\\sSandTurnRight.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -575,6 +639,14 @@
             }
         },
         {
+            "Key": "39d02a6e-3de1-462e-bb05-ac46d559e050",
+            "Value": {
+                "id": "2f87e3e3-57f3-4481-8738-0411b71b5564",
+                "resourcePath": "objects\\objDirtStraight\\objDirtStraight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3a21b70f-4f34-4cdd-9fec-785bfb1b1afc",
             "Value": {
                 "id": "4192233a-1b6f-4164-a6ed-e87946562cc2",
@@ -647,6 +719,14 @@
             }
         },
         {
+            "Key": "3dedf949-ee23-4564-b8ba-cb5e1f1a10e6",
+            "Value": {
+                "id": "aab7d787-0c1c-4cab-8a0c-a01870a61115",
+                "resourcePath": "sounds\\sZombieDeath\\sZombieDeath.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3df205c5-4504-4d5a-8bc3-0cb67c875595",
             "Value": {
                 "id": "76723751-5bd1-4189-832d-507ac09a3e2e",
@@ -660,6 +740,14 @@
                 "id": "a749066c-91aa-4905-975c-ad28881c916d",
                 "resourcePath": "objects\\objAutoCannonPickup\\objAutoCannonPickup.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3f5da570-e5c6-4244-846c-810cafad4e1c",
+            "Value": {
+                "id": "94ae2091-3402-49d5-a05b-be12cda561e6",
+                "resourcePath": "views\\3f5da570-e5c6-4244-846c-810cafad4e1c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -699,6 +787,14 @@
             "Value": {
                 "id": "7f80f82e-6a86-40d9-944e-851ee0b2ad97",
                 "resourcePath": "sprites\\sAmmo\\sAmmo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "43ca9c27-22f4-4f6e-a7ad-7dc565706d5a",
+            "Value": {
+                "id": "25eefc74-d12c-4468-b297-afe0c57910df",
+                "resourcePath": "sprites\\sAsphaltRoadTurnLeft\\sAsphaltRoadTurnLeft.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -788,6 +884,14 @@
                 "id": "7c630e50-24af-4c57-bcd1-8fb808622276",
                 "resourcePath": "sounds\\sMotorcycleEnd\\sMotorcycleEnd.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "4d2e2e86-53b5-4196-8a5c-d9259409c5f0",
+            "Value": {
+                "id": "38400f2d-7b52-414f-a411-23ec0ce5e46d",
+                "resourcePath": "sprites\\sDirtTurnLeft\\sDirtTurnLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1215,6 +1319,14 @@
             }
         },
         {
+            "Key": "8e221455-82c5-4ae3-a76f-9d8c7aafb51c",
+            "Value": {
+                "id": "6e2db64a-bd17-469d-a4e6-b11dee46b6e5",
+                "resourcePath": "views\\8e221455-82c5-4ae3-a76f-9d8c7aafb51c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "901aea38-098e-4a0e-bd4d-c7353ddb3543",
             "Value": {
                 "id": "acf7e58f-0471-4649-8e54-ddab21462b02",
@@ -1271,11 +1383,27 @@
             }
         },
         {
+            "Key": "97fa6de5-aad4-485e-bdbd-9458f6713bd3",
+            "Value": {
+                "id": "4b48b5bf-ba0d-401f-a573-27e93a2267ac",
+                "resourcePath": "sprites\\sAsphaltRoadStraight\\sAsphaltRoadStraight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "98679691-3b1e-40b8-baa9-8aff05061859",
             "Value": {
                 "id": "4df81772-832f-40be-9bd1-19ddbce4d05c",
                 "resourcePath": "objects\\objInfo\\objInfo.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "99087bae-bfd3-4630-86a2-0212bbf0f8af",
+            "Value": {
+                "id": "2a6bcaf0-6b81-4b13-a74b-1b3fa70acb28",
+                "resourcePath": "views\\99087bae-bfd3-4630-86a2-0212bbf0f8af.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1436,6 +1564,14 @@
                 "id": "33476ae0-1f6e-44f6-be75-793d326d7f4f",
                 "resourcePath": "views\\a9d55634-a84c-4d1b-a740-6471e8817415.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aab86165-7831-4f83-869c-46dbb06524f0",
+            "Value": {
+                "id": "b33d0fb9-ee1f-4a18-a012-809129d475f5",
+                "resourcePath": "sprites\\sSandTurnLeft\\sSandTurnLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1623,10 +1759,26 @@
             }
         },
         {
+            "Key": "c3d08e50-381a-4ac9-8657-049e647be90c",
+            "Value": {
+                "id": "0644ef4c-54af-4d41-97c7-72536f37eba0",
+                "resourcePath": "sprites\\sCannonAmmo\\sCannonAmmo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c48ddeaf-0a53-42c9-b3d2-0795d18857f8",
             "Value": {
                 "id": "c6516930-053a-453f-a6d4-ec4d1ea618b4",
                 "resourcePath": "sprites\\sCursor1\\sCursor1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c6312ec4-f1fc-4d24-a742-533549b6b777",
+            "Value": {
+                "id": "c026416c-eafa-4e97-8975-989aaf5a4b60",
+                "resourcePath": "sprites\\sAsphaltRoadStraightCenter\\sAsphaltRoadStraightCenter.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1636,6 +1788,14 @@
                 "id": "b1394898-da29-4dd1-8205-5bec629ea80f",
                 "resourcePath": "sprites\\sDeath1\\sDeath1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c796f34c-0ad8-4251-b78c-b40c3c94e9a3",
+            "Value": {
+                "id": "fb53a07b-71fe-473f-9b3a-9490ccbb0bd7",
+                "resourcePath": "objects\\objRoadRight\\objRoadRight.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1719,6 +1879,22 @@
             }
         },
         {
+            "Key": "d0d57343-3d0c-4a4e-8f5f-44325ddc5afa",
+            "Value": {
+                "id": "b7f0702e-279f-4643-919e-289b00f8b591",
+                "resourcePath": "sprites\\sDirtTurnRight\\sDirtTurnRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d3279203-3949-460b-a5b1-f7ef5fd8296b",
+            "Value": {
+                "id": "ad8ecd8a-0c81-42ef-bc6b-4f08fcc4334a",
+                "resourcePath": "objects\\objSandLeft\\objSandLeft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d4e072e0-ec5c-4327-9388-ca57a069dd4b",
             "Value": {
                 "id": "95311471-f4da-4ca3-95f0-39bf3d0b38a3",
@@ -1775,6 +1951,22 @@
             }
         },
         {
+            "Key": "d9acdfd0-5324-42c4-a86b-d24f053069bc",
+            "Value": {
+                "id": "852f6718-bc6d-42f7-b871-08c11d378a10",
+                "resourcePath": "views\\d9acdfd0-5324-42c4-a86b-d24f053069bc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "da763bf0-aaad-455e-ad58-fb6e33b75936",
+            "Value": {
+                "id": "eddf99c1-52d6-4b37-90d7-2f8e98f5e29b",
+                "resourcePath": "views\\da763bf0-aaad-455e-ad58-fb6e33b75936.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dabf3932-aec6-431e-938f-3838dd7fec06",
             "Value": {
                 "id": "6546b87d-c25d-4b29-b353-5c2e01e25ff4",
@@ -1796,6 +1988,14 @@
                 "id": "c33d34b6-234e-4fd7-8676-212b6bde64e4",
                 "resourcePath": "sounds\\sMotorcycleStart\\sMotorcycleStart.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "dc805e90-b874-46bf-8ccc-bf31230746e5",
+            "Value": {
+                "id": "bcc2c420-28e4-4875-b1cc-13d3a7131d31",
+                "resourcePath": "objects\\objDirtLeft\\objDirtLeft.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1831,6 +2031,14 @@
             }
         },
         {
+            "Key": "decc9c36-1264-489f-a0c2-67627ffe2c68",
+            "Value": {
+                "id": "2f1c0ab8-9224-42ba-8d7d-ef4587f89dfa",
+                "resourcePath": "objects\\objRoadLeft\\objRoadLeft.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "df9b01ba-0803-4f38-bd4e-b18e9db2901c",
             "Value": {
                 "id": "943e55d1-aae2-49d9-9f6c-14073683208d",
@@ -1843,6 +2051,14 @@
             "Value": {
                 "id": "5f29289b-ffcc-4b1d-8eec-9c3134a98c34",
                 "resourcePath": "sprites\\sDoorMetal\\sDoorMetal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e22881e1-5276-4d10-a8fc-0a205de627dc",
+            "Value": {
+                "id": "15de2c09-bba8-4306-a286-e96e1f11ade8",
+                "resourcePath": "sprites\\sAshaltRoadStraightLeft\\sAshaltRoadStraightLeft.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1919,6 +2135,22 @@
             }
         },
         {
+            "Key": "ee8d330b-7131-4867-9669-b622371deacd",
+            "Value": {
+                "id": "10f45089-d448-426f-9159-2513d4b0c6f4",
+                "resourcePath": "sprites\\sAsphaltRoadStraightRight\\sAsphaltRoadStraightRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ee8e9c1e-0fad-453d-b70e-79e3cac01f53",
+            "Value": {
+                "id": "80103cbc-d0a1-46b8-bdf3-257b67c23d8d",
+                "resourcePath": "objects\\objSandRight\\objSandRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "efde5055-21b4-45f3-9377-dbbd153d5fbf",
             "Value": {
                 "id": "6ca7be0c-a869-47d1-a313-58b0037b45e5",
@@ -1956,6 +2188,14 @@
                 "id": "2442fc5b-b61b-4b46-80eb-dbc57abb33b7",
                 "resourcePath": "objects\\objLevel5\\objLevel5.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f17cb02e-0057-44b1-b345-0573964ed150",
+            "Value": {
+                "id": "93eb384b-be15-4905-b111-c49fa0def177",
+                "resourcePath": "sprites\\sSandStraight\\sSandStraight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2004,6 +2244,14 @@
                 "id": "59f5b23e-eb32-4783-8822-d88e2a903a11",
                 "resourcePath": "sounds\\sCannon\\sCannon.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f82573a8-0d1b-488f-988b-6b239f9704be",
+            "Value": {
+                "id": "4306a539-324b-4a27-8b92-dc401d724ea6",
+                "resourcePath": "objects\\objRoadStraight\\objRoadStraight.yy",
+                "resourceType": "GMObject"
             }
         },
         {

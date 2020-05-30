@@ -63,6 +63,21 @@ if(y <= 200)
 	y = 200;
 }
 
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
+/// @DnDHash : 4EF4EAB5
+/// @DnDArgument : "expr" "y >= room_height-200"
+if(y >= room_height-200)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 534B5FAA
+	/// @DnDParent : 4EF4EAB5
+	/// @DnDArgument : "expr" "room_height-200"
+	/// @DnDArgument : "var" "y"
+	y = room_height-200;
+}
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 26533474
