@@ -11,3 +11,10 @@ text = "Main Menu";
 /// @DnDArgument : "expr" "3"
 /// @DnDArgument : "var" "action"
 action = 3;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2110BC9B
+/// @DnDArgument : "expr" "8"
+/// @DnDArgument : "var" "objPause.currentRoom"
+objPause.currentRoom = 8;

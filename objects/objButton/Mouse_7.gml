@@ -49,7 +49,7 @@ if(action = 4)
 	/// @DnDVersion : 1
 	/// @DnDHash : 251FD152
 	/// @DnDParent : 6A0E83A7
-	/// @DnDArgument : "code" "objPause.pause=0;$(13_10)if (objPause.currentRoom=0)$(13_10){$(13_10)	room=rRoom0;$(13_10)}$(13_10)else if (objPause.currentRoom=1)$(13_10){$(13_10)	room=rRoom1;$(13_10)}$(13_10)else if (objPause.currentRoom=2)$(13_10){$(13_10)	room=rRoom2;$(13_10)}$(13_10)else if (objPause.currentRoom=3)$(13_10){$(13_10)	room=rRoom3;$(13_10)}$(13_10)else if (objPause.currentRoom=4)$(13_10){$(13_10)	room=rRoom4;$(13_10)}$(13_10)else if (objPause.currentRoom=5)$(13_10){$(13_10)	room=rRoom5;$(13_10)}$(13_10)else if (objPause.currentRoom=6)$(13_10){$(13_10)	room=rRoom6;$(13_10)}$(13_10)else if (objPause.currentRoom=7)$(13_10){$(13_10)	room=rDevRoom;$(13_10)}"
+	/// @DnDArgument : "code" "objPause.pause=0;$(13_10)if (objPause.currentRoom=0)$(13_10){$(13_10)	room=rRoom0;$(13_10)}$(13_10)else if (objPause.currentRoom=1)$(13_10){$(13_10)	room=rRoom1;$(13_10)}$(13_10)else if (objPause.currentRoom=2)$(13_10){$(13_10)	room=rRoom2;$(13_10)}$(13_10)else if (objPause.currentRoom=3)$(13_10){$(13_10)	room=rRoom3;$(13_10)}$(13_10)else if (objPause.currentRoom=4)$(13_10){$(13_10)	room=rRoom4;$(13_10)}$(13_10)else if (objPause.currentRoom=5)$(13_10){$(13_10)	room=rRoom5;$(13_10)}$(13_10)else if (objPause.currentRoom=6)$(13_10){$(13_10)	room=rRoom6;$(13_10)}$(13_10)else if (objPause.currentRoom=7)$(13_10){$(13_10)	room=rDevRoom;$(13_10)}$(13_10)else$(13_10){$(13_10)	room=rMainMenu;$(13_10)}"
 	objPause.pause=0;
 	if (objPause.currentRoom=0)
 	{
@@ -83,6 +83,10 @@ if(action = 4)
 	{
 		room=rDevRoom;
 	}
+	else
+	{
+		room=rMainMenu;
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Expression
@@ -113,4 +117,19 @@ if(action =6)
 	/// @DnDArgument : "room" "rMainMenu"
 	/// @DnDSaveInfo : "room" "901aea38-098e-4a0e-bd4d-c7353ddb3543"
 	room_goto(rMainMenu);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDVersion : 1
+/// @DnDHash : 4C42828D
+/// @DnDArgument : "expr" "action = 7"
+if(action = 7)
+{
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 4C08D77C
+	/// @DnDParent : 4C42828D
+	/// @DnDArgument : "room" "rCredits"
+	/// @DnDSaveInfo : "room" "e130f44e-cfaf-40a2-a672-2db04eae170e"
+	room_goto(rCredits);
 }
