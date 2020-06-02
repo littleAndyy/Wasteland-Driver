@@ -25,3 +25,17 @@ zSpeed = 0.8;
 /// @DnDHash : 758EFB64
 /// @DnDArgument : "var" "rotate"
 rotate = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 58DA1C71
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "death"
+death = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1BB83E9C
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "on"
+on = 1;

@@ -15,6 +15,21 @@ if(objCamera.playerObject = objPetalBike)
 	image_index += 0;
 }
 
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 0689CE1C
+else
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 10A6FB6B
+	/// @DnDParent : 0689CE1C
+	/// @DnDArgument : "spriteind" "sBike"
+	/// @DnDSaveInfo : "spriteind" "2dfab873-b09a-4eb3-9ed8-f1fa60cffa15"
+	sprite_index = sBike;
+	image_index = 0;
+}
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0E966A87
@@ -94,3 +109,26 @@ if(y >= room_height -200)
 /// @DnDHash : 33B6DA63
 /// @DnDArgument : "speed" "1 * speed"
 image_speed = 1 * speed;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 2E92089B
+/// @DnDArgument : "code" "if (place_meeting(x+hspeed,y,objWoodWall)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objWoodWall)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objWoodWall90d)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objWoodWall90d)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objWoodWallHalf)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objWoodWallHalf)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objWoodWallQuarter)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objWoodWallQuarter)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objConcreteWall)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objConcreteWall)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objConcreteWallHalf)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objConcreteWallHalf)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objConcreteWallQuarter)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objConcreteWallQuarter)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objGlass1)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objGlass1)) vspeed=0;$(13_10)if (place_meeting(x+hspeed,y,objGlass2)) hspeed=0;$(13_10)if (place_meeting(x,y+vspeed,objGlass2)) vspeed=0;"
+if (place_meeting(x+hspeed,y,objWoodWall)) hspeed=0;
+if (place_meeting(x,y+vspeed,objWoodWall)) vspeed=0;
+if (place_meeting(x+hspeed,y,objWoodWall90d)) hspeed=0;
+if (place_meeting(x,y+vspeed,objWoodWall90d)) vspeed=0;
+if (place_meeting(x+hspeed,y,objWoodWallHalf)) hspeed=0;
+if (place_meeting(x,y+vspeed,objWoodWallHalf)) vspeed=0;
+if (place_meeting(x+hspeed,y,objWoodWallQuarter)) hspeed=0;
+if (place_meeting(x,y+vspeed,objWoodWallQuarter)) vspeed=0;
+if (place_meeting(x+hspeed,y,objConcreteWall)) hspeed=0;
+if (place_meeting(x,y+vspeed,objConcreteWall)) vspeed=0;
+if (place_meeting(x+hspeed,y,objConcreteWallHalf)) hspeed=0;
+if (place_meeting(x,y+vspeed,objConcreteWallHalf)) vspeed=0;
+if (place_meeting(x+hspeed,y,objConcreteWallQuarter)) hspeed=0;
+if (place_meeting(x,y+vspeed,objConcreteWallQuarter)) vspeed=0;
+if (place_meeting(x+hspeed,y,objGlass1)) hspeed=0;
+if (place_meeting(x,y+vspeed,objGlass1)) vspeed=0;
+if (place_meeting(x+hspeed,y,objGlass2)) hspeed=0;
+if (place_meeting(x,y+vspeed,objGlass2)) vspeed=0;
